@@ -4,7 +4,7 @@ Do we want to continue using Material UI or want to learn another framework?
 Instead of Auth0 do we want to use Passport or some other kind of user authentication?
 Do we want to deploy to Heroku or another hosting site? Shopify seems to be a popular one for ecommerce
 
-
+https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/
 ````
 ## General Notes
 ```
