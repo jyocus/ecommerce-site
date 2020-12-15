@@ -1,10 +1,9 @@
 import React from 'react';
-import Landing from '../components/Landing/Landing';
 
 function Main() {
     return (
         <div>
-            <Landing />
+            <Form />
         </div>
     )
 }
