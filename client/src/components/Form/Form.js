@@ -2,6 +2,7 @@ import React from 'react'
 import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     form: {
@@ -11,6 +12,12 @@ const useStyles = makeStyles((theme) => ({
     inputs: {
         marginTop: "20px",
         marginBottom: "20px",
+    },
+    button: {
+        marginTop: "20px",
+        marginBottom: "20px",
+        backgroundColor: "blue",
+        color: "white"
     }
 })); 
 
@@ -76,6 +83,11 @@ function Form() {
                         variant="outlined"
                         />
                 </Grid>
+                    <Grid container>
+                        <Button 
+                        className={classes.button}
+                        variant="contained">Submit</Button>
+                    </Grid>
                 </Grid>
                 </form>
         </div>
